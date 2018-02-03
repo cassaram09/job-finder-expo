@@ -1,7 +1,7 @@
-import React { Component } from 'react';
+import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-class DeckScreen extends React.Component {
+class DeckScreen extends Component {
   render() {
     return (
       <View>

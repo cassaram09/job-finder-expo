@@ -1,7 +1,9 @@
-import React { Component } from 'react';
+import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-class AuthScreen extends React.Component {
+const FACEBOOK_KEY = '833410433498051'
+
+class AuthScreen extends Component {
   render() {
     return (
       <View>
